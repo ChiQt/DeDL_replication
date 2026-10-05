@@ -1,0 +1,15 @@
+{
+  "response_type": "low_dimensional_structured_sigmoid",
+  "scale": 20.0,
+  "basis": ["1", "sin(2*pi*x0)", "x1-0.5", "x2-0.5", "x3-0.5", "x4-0.5"],
+  "coefficient_matrix": [
+    [-1.8, 0.6, 0.2, 0.0, 0.0, 0.0],
+    [0.5, 0.0, 0.0, 0.2, 0.0, 0.0],
+    [-0.35, 0.0, 0.0, 0.0, 0.15, 0.0],
+    [1.0, 0.0, 0.0, 0.0, 0.0, 0.2]
+  ],
+  "mild_misspec_delta": 0.2,
+  "mild_misspec_term": "delta*(1+0.4*(x5-0.5))*t2*t3",
+  "selection_basis": "Table 2 effect signs and 101 optimum; low-dimensional nuisance; population LR approximation error, before training",
+  "matches_table2_exact_percentages": false
+}

@@ -1,0 +1,5 @@
+# Matches the reference environment. Python 3.7--3.10; use Python 3.10 for a new environment.
+numpy==1.21.6
+scipy==1.7.3
+matplotlib==3.5.3
+tensorflow==2.11.0

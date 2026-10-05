@@ -1,0 +1,25 @@
+{
+  "source": "Public main.ipynb xvar list; these dummy columns are not a literal encoding of Online Appendix Table A1",
+  "continuous": [
+    "app", "video", "live", "DP_video", "LP_video",
+    "FYP_video", "FP_video", "DP_screen", "LP_screen", "FP_screen"
+  ],
+  "categorical": [
+    {"name": "operationsys", "levels": 5},
+    {"name": "browse_type", "levels": 4},
+    {"name": "feed_model", "levels": 2},
+    {"name": "user_active_degree", "levels": 4},
+    {"name": "gender", "levels": 2},
+    {"name": "age_range", "levels": 7},
+    {"name": "fre_city_level", "levels": 6},
+    {"name": "fre_country_region", "levels": 2},
+    {"name": "fre_community_type", "levels": 4},
+    {"name": "fans_range", "levels": 6},
+    {"name": "active_city_level", "levels": 6},
+    {"name": "fans_user_num_range", "levels": 9},
+    {"name": "friend_user_num_range", "levels": 6},
+    {"name": "follow_user_num_range", "levels": 7},
+    {"name": "user_active_deepness", "levels": 2},
+    {"name": "mod_price_range", "levels": 5}
+  ]
+}

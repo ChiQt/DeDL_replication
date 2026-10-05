@@ -1,0 +1,18 @@
+# Generated experiments and local environments
+/data/
+/outputs/
+/logs/
+/.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.npz
+*.npy
+*.pt
+*.h5
+*.pdf
+!examples/tensorflow/figure7_fourfold.pdf
+*.zip
+*.tar.gz
+*.log

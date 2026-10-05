@@ -1,0 +1,19 @@
+{
+  "reference_seed": 2718,
+  "n": 20000,
+  "d": 87,
+  "m": 3,
+  "mc_n": 500000,
+  "reference_n_per_group": 2000,
+  "reference_alpha": 0.05,
+  "epochs": 400,
+  "every": 5,
+  "batch_size": 100,
+  "learning_rate": 0.0001,
+  "ridge": 0.0005,
+  "diagnostic_ridge": 0.05,
+  "scenarios": {
+    "base": 0.5,
+    "mild_misspec": 0.5
+  }
+}

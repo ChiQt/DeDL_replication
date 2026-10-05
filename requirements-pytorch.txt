@@ -1,0 +1,5 @@
+# Reference environment: Python 3.11. CPU execution is sufficient.
+numpy==1.26.4
+scipy==1.16.1
+matplotlib==3.10.5
+torch==2.8.0
